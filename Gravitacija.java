@@ -15,4 +15,10 @@ public class Gravitacija {
         double gravPospesek = izracunaj(visina);
         izpis(gravPospesek);
     }
+
+    public static double izracunaj(double visina){
+        return (GRAVITACIJSKA_KONSTANTA * MASA_ZEMLJE) / Math.pow((POLMER_ZEMLJE + visina), 2);
+    }
+        
+
 }
