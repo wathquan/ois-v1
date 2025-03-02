@@ -11,8 +11,12 @@ public class Gravitacija {
         Scanner sc = new Scanner(System.in);
         double visina = sc.nextDouble();
         // Student B doda staticno double metodo izracunaj(visina)
-        // Student C doda void metodo izpis()
+        // Student C doda staticno void metodo izpis()
         double gravPospesek = izracunaj(visina);
         izpis(gravPospesek);
+    }
+
+    public static void izpis(double gravPospesek) {
+        System.out.println(gravPospesek);
     }
 }
