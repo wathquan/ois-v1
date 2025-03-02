@@ -17,6 +17,7 @@ public class Gravitacija {
     }
 
     public static void izpis(double gravPospesek) {
+        // izpis vrednosti
         System.out.println(gravPospesek);
     }
 }
