@@ -11,14 +11,18 @@ public class Gravitacija {
         Scanner sc = new Scanner(System.in);
         double visina = sc.nextDouble();
         // Student B doda staticno double metodo izracunaj(visina)
-        // Student C doda void metodo izpis()
+        // Student C doda staticno void metodo izpis()
         double gravPospesek = izracunaj(visina);
         izpis(gravPospesek);
     }
-
+    <<<<<<< HEAD
     public static double izracunaj(double visina){
         return (GRAVITACIJSKA_KONSTANTA * MASA_ZEMLJE) / Math.pow((POLMER_ZEMLJE + visina), 2);
     }
-        
-
+    =======
+    public static void izpis(double gravPospesek) {
+        // izpis vrednosti
+        System.out.println(gravPospesek);
+    }
+    >>>>>>> izpis
 }
